@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex:1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
 }
@@ -79,10 +80,10 @@ button {
 
 .image {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 300px;
     height: 210px;
     background-color: #8d94a3 ;
     color: white;
@@ -91,5 +92,50 @@ button {
 .section-two {
     margin-top: 20px;
     background-color: white;
+        
+}
 
+.box-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 150px;
+    flex: auto;
+    flex-wrap: wrap;
+    margin: 20px;
+
+} 
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.box {
+    border: solid blue;
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-self: center;   
+    
+}
+
+.random {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 20px;
+
+}
+
+p {
+    text-align: center;
+
+}
+
+.section-three {
+    background-color: #E5E7EB;
 }
