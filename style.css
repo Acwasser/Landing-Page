@@ -125,17 +125,64 @@ button {
 
 .random {
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bolder;
     margin: 20px;
 
 }
 
-p {
+.box-one > p {
     text-align: center;
 
 }
 
 .section-three {
     background-color: #E5E7EB;
+    }
+
+.quote {
+    margin: 50px;
+    padding: 20px;
+
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937
+}
+
+.thor {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.action {
+    margin: 50px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    
+
+}
+
+.word {
+    padding:50px;
+    
+}
+
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+        
+    }
+
+#text {
+    font-size: 18px;
+    margin-top: -20px;
+
 }
