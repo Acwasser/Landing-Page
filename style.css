@@ -65,7 +65,7 @@ h1 {
     margin-top: 0;
 }
 
-button {
+button#button{
     background-color: #3882f6;
     color: #f9faf8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -159,19 +159,22 @@ blockquote {
     font-weight: bold;
 }
 
+
+
 .action {
     margin: 50px;
     background-color: #3882F6;
     color: white;
     display: flex;
     border-radius: 15px;
-    
-
-}
+    justify-content: space-around;
+    align-items: center;
+        
+    }
 
 .word {
     padding:50px;
-    
+        
 }
 
 
@@ -185,4 +188,25 @@ blockquote {
     font-size: 18px;
     margin-top: -20px;
 
+}
+button#sign {
+    background-color: #3882F6;
+    padding: 15px 40px;
+    font-weight: bold ;
+    font-size: large;
+    color: white;
+    border: solid white;
+    border-width: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 50px;
+    font-size: medium;
+    color: white;  
+    text-align: center;  
 }
